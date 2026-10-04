@@ -1,0 +1,16 @@
+{
+  "name": "python-backend",
+  "description": "Estándares completos para proyectos backend desarrollados con Python.",
+  "skills": [
+    "coding-standards",
+    "architecture",
+    "documentation",
+    "dependencies",
+    "testing",
+    "project-structure",
+    "python",
+    "postgresql",
+    "pytest",
+    "security"
+  ]
+}
