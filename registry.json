@@ -1,7 +1,7 @@
 {
   "skills": {
     "python": {
-      "path": "skills/backend/python",
+      "path": "skills/python",
       "version": "1.0.0"
     },
     "architecture": {
