@@ -1,33 +1,36 @@
 {
-  "name": "skills_privates",
-  "version": "1.0.0",
   "skills": {
-    "coding-standards": "core/coding-standards",
-    "architecture": "core/architecture",
-    "documentation": "core/documentation",
-    "dependencies": "core/dependencies",
-    "testing": "core/testing",
-    "project-structure": "core/project-structure",
-    "python": "backend/python",
-    "database": "database/general",
-    "postgresql": "database/postgresql",
-    "pytest": "testing/pytest",
-    "docker": "devops/docker",
-    "ci-cd": "devops/ci-cd",
-    "security": "security"
+    "python": {
+      "path": "skills/backend/python",
+      "version": "1.0.0"
+    },
+    "architecture": {
+      "path": "skills/core/architecture",
+      "version": "1.0.0"
+    },
+    "documentation": {
+      "path": "skills/core/documentation",
+      "version": "1.0.0"
+    },
+    "pytest": {
+      "path": "skills/testing/pytest",
+      "version": "1.0.0"
+    }
   },
   "profiles": {
-    "python-backend": [
-      "coding-standards",
-      "architecture",
-      "documentation",
-      "dependencies",
-      "testing",
-      "project-structure",
-      "python",
-      "postgresql",
-      "pytest",
-      "security"
-    ]
+    "python-backend": {
+      "skills": [
+        "architecture",
+        "coding-standards",
+        "documentation",
+        "dependencies",
+        "project-structure",
+        "python",
+        "postgresql",
+        "pytest",
+        "security",
+        "testing"
+      ]
+    }
   }
 }
