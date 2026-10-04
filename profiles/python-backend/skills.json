@@ -9,6 +9,7 @@
     "testing",
     "project-structure",
     "python",
+    "core",
     "postgresql",
     "pytest",
     "security"
